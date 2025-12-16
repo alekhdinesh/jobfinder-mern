@@ -1,0 +1,51 @@
+/* Page background */
+.find-jobs-page {
+  min-height: 100vh;
+  background: #f5f7fb;
+  padding: 30px;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+/* Job card */
+.job-card {
+  background: #ffffff;
+  border-radius: 10px;
+  padding: 20px 25px;
+  margin-bottom: 20px;
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.06);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  transition: transform 0.2s ease;
+}
+
+.job-card:hover {
+  transform: translateY(-3px);
+}
+
+/* Job info */
+.job-info h3 {
+  margin: 0;
+  color: #111827;
+}
+
+.job-info p {
+  margin: 5px 0 0;
+  color: #6b7280;
+}
+
+/* Button */
+.job-card button {
+  background: #3b82f6;
+  color: white;
+  border: none;
+  padding: 8px 14px;
+  border-radius: 6px;
+  cursor: pointer;
+  font-size: 14px;
+  transition: background 0.2s ease;
+}
+
+.job-card button:hover {
+  background: #2563eb;
+}
